@@ -7,12 +7,12 @@ Instructions:
 
 Step 1: Create an empty appliance 
 
-  $> sudo ./linux-appliance/newapp myapp
+  $> sudo ./linux-appliance/newapp myapp  
 
 Step 2: Add additional binaries to your appliance
 
-  $> sudo ./linux-appliance/addapp myapp.d /usr/bin/time
+  $> sudo ./linux-appliance/addapp myapp.d /usr/bin/time  
 
 Step 3: Build initrd from appliance root filesystem
 
-  $> sudo ./linux-appliance/buildapp myapp.d
+  $> sudo ./linux-appliance/buildapp myapp.d  
